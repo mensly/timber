@@ -1,6 +1,14 @@
 I'm going down, I'm yelling
 ![Timber](logo.png)
 
+# ALTERNATIVE TO LOG4J
+
+If you want a simple logging utility that works with any Java project and doesn't have
+major security vulterabilities, just copy Timber.kt into your project and remove the Android stuff.
+
+Not that hard. If you want remote logging, just add that in too. Also not that hard.
+---
+
 This is a logger with a small, extensible API which provides utility on top of Android's normal
 `Log` class.
 
